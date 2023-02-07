@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Unbounded', cursive;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url("./assets/pexels-maxyne-barcel-10402282\ 1.png");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+nav{
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.list{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    /* color: #fdc334; */
+    font-weight: 500;
+    /* text-decoration: none; */
+}
+a{
+    color: #fdc334;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #ff505f;
+   
+
+}
+
+
+.logo,.list-item, .SmallButton {
+  cursor: pointer;
+}
+
+.SmallButton{
+    background-color: #ff505f;
+    padding: 10px 20px;
+    margin: 10px;
+    color: white;
+    border-radius: 10px;
+    font: 700;
+    width: fit-content;
+    border: solid black 1px;
+}
+
+.SmallButton:hover{
+    background-color: white;
+    color: #ff505f;
+    border: solid black 1px;
+}
+
+
+
+
+.Hero {
+    text-align: center; 
+  }
+
+.Heading{
+    color: #fdc334;
+    font-weight: 400;
+    font-size: 70px;
+    margin-top: 7%;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+}
+
+
+.LargeButton{
+    background-color: #ff505f;
+    padding: 13px 25px;
+    margin-top: 40px;
+    color: white;
+    border-radius: 10px;
+    font: 700;
+    width: fit-content;
+    border: solid black 1px;   
+}
+.LargeButton:hover{
+    background-color: white;
+    color: #ff505f;
+    border: solid black 1px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 20px;
+    right: 40px;
+  }
+
